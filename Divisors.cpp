@@ -5,10 +5,10 @@ main(){
 	int a;
 	cout<<"Enter number: ";
 	cin>>a;
-	cout<<"Divisors = ";
+	cout<<"Divisors = "<<endl;
 	for(int i=1;i<=a;i++){
 		if(a%i==0)
-		cout<<i<<'\t';
+		cout<<i<<endl;
 	}
 	getch();
 }
